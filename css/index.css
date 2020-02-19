@@ -135,6 +135,65 @@ body{
     margin: auto;
 }
 
-.feature-description{
+.contact-section{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
 
+.contact-container{
+    margin: auto;
+    height: 350px;
+    width: 100%;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px #6b9b37;
+    background-color: #9ccc65;
+    justify-content: center;
+   
+}
+
+.contact-container h1{
+    font-family: sans-serif;
+    font-size: bold;
+    text-align: center;
+}
+
+.contact-campos{
+    margin-left: 40%;
+    
+}
+
+.contact-campos p{
+    margin-top: 1em;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+.contact-campos input{
+    border-radius: 8px;
+   
+    width: 35%;
+}
+
+.contact-campos button{
+    width: 80px;
+    height: 30px;
+  margin-top: 1em;
+  margin-left: 27%;
+  
+  border-radius: 5px;
+  color: white;
+  border-color: orange;
+  background-color: orange;
+  
+}
+
+.footer{
+    text-align: center;
+    font-family: sans-serif;
 }
